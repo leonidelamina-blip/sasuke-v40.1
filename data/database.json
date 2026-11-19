@@ -1,0 +1,11 @@
+{
+  "groups": {},
+  "users": {},
+  "orders": [],
+  "receipts": [],
+  "rentals": [],
+  "admins": [],
+  "settings": {
+    "maintenance": false
+  }
+}
