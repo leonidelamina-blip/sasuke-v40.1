@@ -1,0 +1,62 @@
+{
+  "bot": {
+    "nome": "SASUKE V40 — SHADOW GOD",
+    "nomeCurto": "Sasuke",
+    "marca": "sᴀsᴜᴋᴇ",
+    "versao": "40",
+    "core": "CORE 77",
+    "prefixo": ".",
+    "numero": "872698781",
+    "numeroIntl": "258872698781",
+    "fonte": "sans-bold",
+    "_fonte": "Fonte do bot: 'sans-bold' (𝗲𝘀𝘀𝗮) ou 'nenhuma'. So letras de textos do proprio bot; comandos, numeros, links e @ ficam normais. Cada grupo liga/desliga com .fonte on/off."
+  },
+  "dono": {
+    "nome": "Leo",
+    "numero": "852223969",
+    "numeroIntl": "258852223969",
+    "link": "https://wa.me/258852223969"
+  },
+  "canal": {
+    "_aviso": "O link do canal so aparece em: .canal, no aviso de aluguel/teste expirado e no anuncio periodico (secao 'anuncio').",
+    "link": "https://whatsapp.com/channel/0029VbBfoWhAO7RJaD9mXy2k"
+  },
+  "menu": {
+    "_aviso": "legendaMax: maximo de caracteres na legenda da foto do .menu. O resto segue em mensagens seguintes.",
+    "legendaMax": 3000
+  },
+  "conexao": {
+    "_aviso": "modo: 'pairing' (codigo XXXX-XXXX, SEM QR) e o padrao. Troque para 'qr' ou 'ambos' se precisar. Tambem pode usar a variavel de ambiente SASUKE_MODO.",
+    "modo": "pairing"
+  },
+  "humano": {
+    "_aviso": "Resposta tipo humano: marca como lida, reage, mostra 'a escrever...' e espera. escala: 1 = normal, 2 = mais lento, 0 = sem espera.",
+    "ativo": true,
+    "escala": 1.5
+  },
+  "regiao": {
+    "fuso": "Africa/Maputo",
+    "ddi": "258",
+    "moeda": "MT"
+  },
+  "anuncio": {
+    "_aviso": "A cada 'cadaComandos' comandos executados num chat, o bot envia um anuncio do canal. Por defeito so em bots de TESTE gratis. paraAlugados=true mostra tambem aos clientes pagantes; naSessaoPrincipal=true mostra no bot principal.",
+    "ativo": true,
+    "cadaComandos": 7,
+    "paraAlugados": false,
+    "naSessaoPrincipal": false
+  },
+  "teste": {
+    "_aviso": "Teste gratis: um ADMIN do grupo envia .teste no proprio grupo (24h, 1 vez por grupo e por pessoa). pareamento=true tambem permite pedir um bot proprio por pareamento no privado.",
+    "ativo": true,
+    "horas": 24,
+    "maxSimultaneos": 10,
+    "minutosParaParear": 30,
+    "diasAteApagar": 3,
+    "pareamento": false
+  },
+  "limites": {
+    "_aviso": "Maximo de caracteres de nanos e textos configurados pelos grupos.",
+    "texto": 5000
+  }
+}

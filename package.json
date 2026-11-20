@@ -1,0 +1,21 @@
+{
+  "name": "sasuke-v40",
+  "version": "40.0.0",
+  "description": "SASUKE V40 — SHADOW GOD: bot de WhatsApp para alugar a varios grupos (venda de megas)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/run.js",
+    "auditoria": "node tools/auditoria.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
